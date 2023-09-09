@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Length Conversion Calculator</title>
+</head>
+<body>
+    <div class="converter">
+        <h1>Length Conversion Calculator</h1>
+        <input type="number" id="inputLength" placeholder="Enter length in inches">
+        <select id="fromUnit">
+            <option value="inches">Inches</option>
+            <option value="millimeters">Millimeters</option>
+            <option value="centimeters">Centimeters</option>
+            <option value="meters">Meters</option>
+        </select>
+        <p>Convert to:</p>
+        <select id="toUnit">
+            <option value="millimeters">Millimeters</option>
+            <option value="centimeters">Centimeters</option>
+            <option value="meters">Meters</option>
+        </select>
+        <button onclick="convertLength()">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>
+

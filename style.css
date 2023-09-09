@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(116, 86, 86);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.converter {
+    background-color: #cdbbbb;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(16, 20, 16);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #624a36;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #acb0b3;
+}
